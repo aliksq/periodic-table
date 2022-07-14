@@ -167,15 +167,19 @@ body {
 }
 
 @media (max-width: 1200px){
-	.container{
-		overflow: auto;
-	}
+
 	.wrapper{
 		flex-direction: column;
 		gap: 30px;
 	}
 }
 @media (max-width: 576px){
+	.cell-main{
+		width: 80px;
+	}
+	.container{
+		overflow: auto;
+	}
 	.info{
 		padding: 10px 10px;
 		min-width: 200px;
